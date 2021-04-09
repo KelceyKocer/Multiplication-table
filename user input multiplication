@@ -1,0 +1,12 @@
+def main():
+  input_a = input()
+  print(type(input_a))
+  input_a = int(input_a)
+  i = (input_a)
+  
+  for j in range (1,10):
+      for k in range (1,10):
+          print("%d X %d X %d = %d\n" % (i, j, k, i*j*k))
+          #This print the multiplication table for range (1,10) based on the user input for the integer
+  exit()
+main()
